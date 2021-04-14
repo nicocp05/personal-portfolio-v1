@@ -1,0 +1,9 @@
+.navbar-dark {
+    background-color: #0C1F3B !important;
+    box-shadow: 0 4px 5px 0 #0C1F3B;
+}
+
+.nav-link:hover {
+    color: #64FFDA !important;
+    border-bottom: 1px solid #64FFDA;
+}

@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #0A192F;
+}
+
+.seccion-title {
+    color: #CCD6F6;
+}
+
+.button {
+    color: #64FFDA !important;
+    border-color: #64FFDA !important;
+}
+
+.button:hover {
+    background-color: #182E4F;
+}
+
+.seccion {
+    padding-top: 70px;
+}
+
+.line-seccion {
+    /* color: #64FFDA; */
+    background: linear-gradient(to right, transparent, #64FFDA, transparent);
+    margin-left: 10%;
+    margin-right: 10%;
+}

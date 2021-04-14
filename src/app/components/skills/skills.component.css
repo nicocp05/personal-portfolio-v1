@@ -1,0 +1,12 @@
+.skills-title {
+    color: #64FFDA;
+}
+
+@media (max-width: 576px) {
+    .skill-item {
+        margin-bottom: 40px;
+    }
+    .skills-title {
+        margin-bottom: 0px !important;
+    }
+}

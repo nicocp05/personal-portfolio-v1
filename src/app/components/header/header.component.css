@@ -1,0 +1,16 @@
+.header {
+    background: url(../../../assets/pexels-lukas-574071.jpg);
+    background-size: cover;
+    min-height: 500px;
+    margin-top: 64px;
+}
+
+.background-overlay {
+    background: rgba(10, 25, 47, .7);
+    min-height: 500px;
+}
+
+.name {
+    padding-top: 170px;
+}
+
