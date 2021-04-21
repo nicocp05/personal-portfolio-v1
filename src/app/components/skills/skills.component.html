@@ -2,43 +2,11 @@
     <hr class="line-seccion"/>
     <h1 class="text-center seccion-title">Skills</h1>
     <hr class="line-seccion mb-5"/>
-    <div class="row mb-5">
-        <div class="col-sm-4 skill-item">
+    <div class="row">
+        <div *ngFor="let skill of skills" class="col-sm-4 skill-item">
             <div class="text-center">
-                <h4 class="skills-title animate__animated animate__fadeInUp">HTML5</h4><br />
-                <i class="fab fa-html5 fa-7x" style=" color: #E95E28 "></i>
-            </div>
-        </div>
-        <div class="col-sm-4 skill-item">
-            <div class="text-center">
-                <h4 class="skills-title animate__animated animate__fadeInUp">CSS3</h4><br />
-                <i class="fab fa-css3-alt fa-7x" style=" color: #0091CA "></i>
-            </div>
-        </div>
-        <div class="col-sm-4 skill-item">
-            <div class="text-center">
-                <h4 class="skills-title animate__animated animate__fadeInUp">JavaScript</h4><br />
-                <i class="fab fa-js-square fa-7x" style=" color: #F7D800 "></i>
-            </div>
-        </div>
-    </div>
-    <div class="row mb-5">
-        <div class="col-sm-4 skill-item">
-            <div class="text-center">
-                <h4 class="skills-title animate__animated animate__fadeInUp">Angular</h4><br />
-                <i class="fab fa-angular fa-7x" style=" color: #D6002F "></i>
-            </div>
-        </div>
-        <div class="col-sm-4 skill-item">
-            <div class="text-center">
-                <h4 class="skills-title animate__animated animate__fadeInUp">Node.js</h4><br />
-                <i class="fab fa-node-js fa-7x" style=" color: #7CB701 "></i>
-            </div>
-        </div>
-        <div class="col-sm-4 skill-item">
-            <div class="text-center">
-                <h4 class="skills-title animate__animated animate__fadeInUp">Git</h4><br />
-                <i class="fab fa-git-alt fa-7x" style=" color: #F74C20 "></i>
+                <h4 class="skills-title animate__animated animate__fadeInUp">{{skill.title}}</h4><br />
+                <i [class]="skill.classIcon" [style]=" skill.style "></i>
             </div>
         </div>
     </div>

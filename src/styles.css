@@ -20,7 +20,6 @@ body {
 }
 
 .line-seccion {
-    /* color: #64FFDA; */
     background: linear-gradient(to right, transparent, #64FFDA, transparent);
     margin-left: 10%;
     margin-right: 10%;
