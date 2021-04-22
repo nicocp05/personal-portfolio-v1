@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Header } from 'src/app/interfaces/data-structure';
-import { DataService } from 'src/app/services/data.service';
+import { data } from 'src/app/model/data';
 
 @Component({
   selector: 'app-header',
@@ -8,19 +8,12 @@ import { DataService } from 'src/app/services/data.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  
-  name: String;
-  profile: String;
 
-  constructor( private dataServices: DataService ) { }
+  header: Header = data.header;
+
+  constructor() { }
 
   ngOnInit(): void {
-    this.dataServices.getHeader()
-      .subscribe( ( res: Header ) => {
-        this.name = res.name;
-        this.profile = res.profile
-        
-      });
   }
 
 }
