@@ -1,11 +1,4 @@
-<div class="animate__animated animate__fadeIn">
-    <app-navbar></app-navbar>
-    <app-header></app-header>
-    <app-portfolio></app-portfolio>
-    <div class = " wow fadeInDown " data-wow-duration = " 1s " data-wow-delay = " 0.5s ">
-        <app-skills></app-skills>
-    </div>
-    <div class = " wow fadeInDown " data-wow-duration = " 1s " data-wow-delay = " 0.5s ">
-        <app-contact></app-contact>
-    </div>
+<div *ngIf="load" class="animate__animated animate__fadeIn animate__delay-1s">
+    <app-home></app-home>
 </div>
+<ngx-spinner bdColor = "rgb(10,25,47)" size = "medium" color = "#fff" type = "ball-clip-rotate-pulse" [fullScreen] = "true"><p style="color: white" ></p></ngx-spinner>
