@@ -7,3 +7,8 @@
     color: #64FFDA !important;
     border-bottom: 1px solid #64FFDA;
 }
+
+.nav-link {
+    color: #CCD6F6 !important;
+    transition: all .3s linear;
+}

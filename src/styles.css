@@ -33,3 +33,7 @@ body {
     background: #CCD6F6;
     border-radius: 4px;
 }
+
+a {
+    text-decoration: none;
+}
