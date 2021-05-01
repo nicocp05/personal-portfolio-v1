@@ -29,7 +29,11 @@
     cursor: pointer;
 }
 
-.title {
-    color: green;
+@media (max-width: 992px) {
+    .flip-card-back{
+        display: none !important;
+    }
+    .card:hover {
+        transform: none !important;
+    }
 }
-
