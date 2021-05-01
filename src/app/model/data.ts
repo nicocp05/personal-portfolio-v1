@@ -44,6 +44,12 @@ export const data: DataStructure =
                 description: "YoutubeApp description"
             }
         ],
+        experience: [
+            {
+                name: "UNE Consulting",
+                img: "../../../assets/une-image.png"
+            }
+        ],
         skills: [
             {
                 title: "HTML5",
@@ -75,5 +81,27 @@ export const data: DataStructure =
                 classIcon: "fab fa-git-alt fa-7x",
                 style: "color: #F74C20"
             }
+        ],
+        contact: [
+            {
+                name: "GitHub",
+                link: "https://github.com/nicocp05",
+                classIcon: "fab fa-github fa-2x"
+            },
+            {
+                name: "LinkedIn",
+                link: "https://www.linkedin.com/in/nicolas-comisso-paz/",
+                classIcon: "fab fa-linkedin fa-2x"
+            },
+            {
+                name: "Mail",
+                link: "mailto:nico.comisso@gmail.com",
+                classIcon: "fas fa-envelope fa-2x"
+            },
+            {
+                name: "Instagram",
+                link: "https://www.instagram.com/nicocp05/",
+                classIcon: "fab fa-instagram fa-2x"
+            },
         ]
     }

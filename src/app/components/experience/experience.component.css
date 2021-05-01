@@ -1,0 +1,16 @@
+.card {
+    width: 250px !important;
+    height: 200px !important;
+    text-align: center;
+    transition: transform 0.7s;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}

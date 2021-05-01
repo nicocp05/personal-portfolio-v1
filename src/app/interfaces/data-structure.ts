@@ -2,7 +2,9 @@ export interface DataStructure {
     navbarItems: NavbarItems[]
     header: Header;
     skills: Skill[];
-    portfolio: Portfolio[]
+    portfolio: Portfolio[],
+    experience: Experience[],
+    contact: Contact[]
 }
 
 export interface NavbarItems {
@@ -22,8 +24,20 @@ export interface Portfolio {
     description: string;
 }
 
+export interface Experience {
+    name:    string;
+    img:     string;
+}
+
+
 export interface Skill {
     title:     string;
     classIcon: string;
     style:     string;
+}
+
+export interface Contact {
+    name:       string;
+    link:       string;
+    classIcon:  string;
 }

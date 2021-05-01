@@ -2,7 +2,11 @@
     <hr class="line-seccion"/>
     <h1 class="text-center seccion-title">Experience</h1>
     <hr class="line-seccion mb-5"/>
-    <div class="row">
-        
+    <div *ngIf="experiences.length > 0">
+        <div *ngFor="let experience of experiences" class="px-2 py-1 d-flex justify-content-center">
+            <div mat-button  class="card">
+                <img class="card-img img" [src]="experience.img">
+            </div>
+        </div>
     </div>
 </div>

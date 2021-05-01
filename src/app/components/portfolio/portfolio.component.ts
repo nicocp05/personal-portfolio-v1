@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import Swal from 'sweetalert2';
 import { Portfolio } from 'src/app/interfaces/data-structure';
 import { data } from '../../model/data';
 import { MatDialog } from '@angular/material/dialog';
@@ -19,26 +18,6 @@ export class PortfolioComponent implements OnInit {
   ngOnInit(): void {
   }
   
-
-  // modalWork(work) {
-  //   Swal.fire({
-  //     title: `${work.name}`,
-  //     text: `${work.description}`,
-  //     showConfirmButton: false,
-  //     showCloseButton: true,
-  //     closeButtonHtml: '<i class="far fa-times-circle"></i>',
-  //     showClass: {
-  //       popup: 'animate__animated animate__fadeInDown'
-  //     },
-  //     hideClass: {
-  //       popup: 'animate__animated animate__fadeOutUp'
-  //     },
-  //     imageUrl: `${work.img}`,
-  //     imageWidth: 400,
-  //     imageHeight: 350,
-  //   });
-  // }
-
   openDialog( work: Portfolio ) {
     this.dialog.open(PortfolioModalComponent, {
       width: '900px',
