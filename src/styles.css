@@ -37,3 +37,10 @@ body {
 a {
     text-decoration: none;
 }
+
+.modal-backdrop {
+    z-index: -1;
+    opacity: 0.5;
+} 
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

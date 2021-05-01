@@ -9,6 +9,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { SkillsComponent } from './skills/skills.component';
 import { SocialNetworksComponent } from './social-networks/social-networks.component';
 import { FooterComponent } from './footer/footer.component';
+import { ModalsModule } from './modals/modals.module';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { FooterComponent } from './footer/footer.component';
     FooterComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ModalsModule
   ],
   exports: [
     ContactComponent,
@@ -33,7 +35,7 @@ import { FooterComponent } from './footer/footer.component';
     PortfolioComponent,
     SkillsComponent,
     SocialNetworksComponent,
-    FooterComponent
+    FooterComponent,
   ]
 })
 export class ComponentsModule { }

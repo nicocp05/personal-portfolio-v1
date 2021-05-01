@@ -1,0 +1,12 @@
+.line-section {
+    background: linear-gradient(to right, transparent, #0A192F, transparent);
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.badge-primary {
+    background-color: #0A192F !important;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+}

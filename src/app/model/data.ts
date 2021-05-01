@@ -2,6 +2,24 @@ import { DataStructure } from "../interfaces/data-structure";
 
 export const data: DataStructure = 
     {
+        navbarItems: [
+            {
+                name: "Work",
+                link: "#portfolio"
+            },
+            {
+                name: "Experience",
+                link: "#experience"
+            },
+            {
+                name: "Skills",
+                link: "#skills"
+            },
+            {
+                name: "Contact",
+                link: "#contact"
+            }
+        ],
         header: {
             name: "Nicolás Comisso",
             profile: "Full-stack JavaScript Developer"
@@ -9,15 +27,21 @@ export const data: DataStructure =
         portfolio: [
             {
                 name: "SUMI",
-                img: "../../../assets/sumi-image.jpg"
+                img: "../../../assets/sumi-image.jpg",
+                usedList: ["Angular", "Node.js", "JWT", "SweetAlert2"],
+                description: "Sumi description"
             },
             {
                 name: "MoviesApp",
-                img: "../../../assets/movies-image.png"
+                img: "../../../assets/movies-image.png",
+                usedList: ["Angular", "SweetAlert2", "The Movie DB API"],
+                description: "MoviesApp description"
             },
             {
                 name: "YoutubeApp",
-                img: "../../../assets/youtube-image.png"
+                img: "../../../assets/youtube-image.png",
+                usedList: ["Angular", "Youtube API"],
+                description: "YoutubeApp description"
             }
         ],
         skills: [

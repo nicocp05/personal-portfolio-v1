@@ -3,29 +3,14 @@
     <h1 class="text-center seccion-title">Work</h1>
     <hr class="line-seccion mb-5"/>
     <div *ngIf="works.length > 0" class="row">
-        <div *ngFor="let work of works" class="col-sm-4 px-2 py-1 d-flex justify-content-center">
-            <div class="card">
-                <img class="card-img img" [src]="work.img">
-                <div class="flip-card-back d-flex justify-content-center align-items-center">
-                    <a href="#" style="color: #0A192F;"><i class="fas fa-search-plus fa-5x" style="color: #0A192F;"></i><br>See More</a>
-                </div>
-            </div>
+      <div *ngFor="let work of works" class="col-sm-4 px-2 py-1 d-flex justify-content-center">
+        <div mat-button (click)="openDialog(work)" class="card">
+          <img class="card-img img" [src]="work.img">
+          <div class="flip-card-back d-flex justify-content-center align-items-center">
+            <div style="color: #0A192F;"><i class="fas fa-search-plus fa-5x" style="color: #0A192F;"></i><br>See More</div>
+          </div>
         </div>
-        <!-- <div class="col-sm-4 px-2 py-1 d-flex justify-content-center">
-            <div class="card">
-                <img class="card-img img" src="../../../assets/sumi-image.jpg">
-                <div class="flip-card-back d-flex justify-content-center align-items-center">
-                    <a href="#" style="color: #0A192F;"><i class="fas fa-search-plus fa-5x" style="color: #0A192F;"></i><br>See More</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4 px-2 py-1 d-flex justify-content-center">
-            <div class="card">
-                <img class="card-img img" src="../../../assets/sumi-image.jpg">
-                <div class="flip-card-back d-flex justify-content-center align-items-center">
-                    <a href="#" style="color: #0A192F;"><i class="fas fa-search-plus fa-5x" style="color: #0A192F;"></i><br>See More</a>
-                </div>
-            </div>
-        </div> -->
+      </div>
     </div>
-</div>
+  </div>
+

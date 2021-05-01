@@ -1,7 +1,13 @@
 export interface DataStructure {
+    navbarItems: NavbarItems[]
     header: Header;
     skills: Skill[];
     portfolio: Portfolio[]
+}
+
+export interface NavbarItems {
+    name:    string;
+    link:    string;
 }
 
 export interface Header {
@@ -11,7 +17,9 @@ export interface Header {
 
 export interface Portfolio {
     name:    string;
-    img: string;
+    img:     string;
+    usedList: string[];
+    description: string;
 }
 
 export interface Skill {

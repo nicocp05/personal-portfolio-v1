@@ -3,7 +3,7 @@
     height: 200px !important;
     position: relative;
     text-align: center;
-    transition: transform 0.8s;
+    transition: transform 0.7s;
     transform-style: preserve-3d;
 }
 
@@ -18,14 +18,18 @@
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-}
-
-.flip-card-back {
     background-color: #CCD6F6;
     color: #0A192F;
     transform: rotateY(180deg);
+    cursor: pointer;
 }
 
 .card:hover {
     transform: rotateY(180deg);
+    cursor: pointer;
 }
+
+.title {
+    color: green;
+}
+
