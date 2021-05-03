@@ -1,7 +1,7 @@
-<div id="portfolio" class="seccion container">
-    <hr class="line-seccion"/>
-    <h1 class="text-center seccion-title">Work</h1>
-    <hr class="line-seccion mb-5"/>
+<div id="portfolio" class="section container">
+    <hr class="line-section"/>
+    <h1 class="text-center section-title">Work</h1>
+    <hr class="line-section mb-5"/>
     <div *ngIf="works.length > 0" class="row">
       <div *ngFor="let work of works" class="col-sm-4 px-2 py-1 d-flex justify-content-center">
         <div mat-button (click)="openDialog(work)" class="card">

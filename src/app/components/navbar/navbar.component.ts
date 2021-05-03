@@ -10,10 +10,15 @@ import { data } from 'src/app/model/data';
 export class NavbarComponent implements OnInit {
 
   items: NavbarItems[] = data.navbarItems;
+  isShown: boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  buttonClick() {
+    this.isShown = !this.isShown;
   }
 
 }

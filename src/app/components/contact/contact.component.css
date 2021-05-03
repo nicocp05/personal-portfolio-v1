@@ -1,24 +1,24 @@
-.contact-seccion {
+.contact-section {
     margin-right: 25%;
     margin-left: 25%;
 }
 
-.contact-seccion ul {
+.contact-section ul {
     list-style: none;
     padding-left: 0px;
 }
 
-.contact-seccion li {
+.contact-section li {
     display: inline-block;
 }
 
-.contact-seccion ul li a i {
+.contact-section ul li a i {
     text-decoration: none;
     color: #CCD6F6;
     transition: transform .9s ease;
 }
 
-.contact-seccion ul li a i:hover {
+.contact-section ul li a i:hover {
     color: #64FFDA;
     transform: scale(1.1);
 }

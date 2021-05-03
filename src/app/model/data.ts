@@ -27,19 +27,19 @@ export const data: DataStructure =
         portfolio: [
             {
                 name: "SUMI",
-                img: "../../../assets/sumi-image.jpg",
+                img: "assets/sumi-image.jpg",
                 usedList: ["Angular", "Node.js", "JWT", "SweetAlert2"],
                 description: "Sumi description"
             },
             {
                 name: "MoviesApp",
-                img: "../../../assets/movies-image.png",
+                img: "assets/movies-image.png",
                 usedList: ["Angular", "SweetAlert2", "The Movie DB API"],
                 description: "MoviesApp description"
             },
             {
                 name: "YoutubeApp",
-                img: "../../../assets/youtube-image.png",
+                img: "assets/youtube-image.png",
                 usedList: ["Angular", "Youtube API"],
                 description: "YoutubeApp description"
             }
@@ -47,7 +47,7 @@ export const data: DataStructure =
         experience: [
             {
                 name: "UNE Consulting",
-                img: "../../../assets/une-image.png"
+                img: "assets/une-image.png"
             }
         ],
         skills: [
