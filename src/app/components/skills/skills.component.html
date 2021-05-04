@@ -1,12 +1,12 @@
 <div id="skills" class="section">
-    <hr class="line-section"/>
-    <h1 class="text-center section-title">Skills</h1>
-    <hr class="line-section mb-5"/>
+    <hr [ngClass]="{'line-section-light': lightMode, 'line-section': !lightMode}"/>
+    <h1 class="text-center" [ngClass]="{'section-title-light': lightMode, 'section-title': !lightMode}">Skills</h1>
+    <hr class="mb-5" [ngClass]="{'line-section-light': lightMode, 'line-section': !lightMode}"/>
     <div *ngIf="skills.length > 0" class="row">
         <div *ngFor="let skill of skills" class="col-sm-4 skill-item">
             <div class="text-center">
-                <h4 class="skills-title animate__animated animate__fadeInUp">{{skill.title}}</h4><br />
-                <i [class]="skill.classIcon" [style]=" skill.style "></i>
+                <h4 class="skills-title animate__animated animate__fadeInUp" [ngClass]="{'skills-title-light': lightMode}">{{skill.title}}</h4><br />
+                <i [class]="skill.classIcon" [style]="skill.style"></i>
             </div>
         </div>
     </div>

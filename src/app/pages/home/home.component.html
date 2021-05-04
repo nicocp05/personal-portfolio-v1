@@ -1,16 +1,20 @@
-<app-navbar></app-navbar>
-<app-header></app-header>
-<div class=" wow fadeInDown " data-wow-duration=" 1s " data-wow-delay=" 0.5s ">
-    <app-portfolio></app-portfolio>
-</div>
-<div class=" wow fadeInDown " data-wow-duration=" 1s " data-wow-delay=" 0.5s ">
-    <app-experience></app-experience>
-</div>
-<div class=" wow fadeInDown " data-wow-duration=" 1s " data-wow-delay=" 0.5s ">
-    <app-skills></app-skills>
-</div>
-<div class=" wow fadeInDown " data-wow-duration=" 1s " data-wow-delay=" 0.5s ">
-    <app-contact></app-contact>
-</div>
 
+<div [ngClass]="{'light': lightMode, 'home-page': !lightMode}">
+    <app-navbar (modeEvent)="processEvent($event)"></app-navbar>
+    <app-header></app-header>
+    <div class=" wow fadeInDown " data-wow-duration=" 1s " data-wow-delay=" 0.5s ">
+        <app-portfolio [lightMode]="lightMode"></app-portfolio>
+    </div>
+    <div class=" wow fadeInDown " data-wow-duration=" 1s " data-wow-delay=" 0.5s ">
+        <app-experience [lightMode]="lightMode"></app-experience>
+    </div>
+    <div class=" wow fadeInDown " data-wow-duration=" 1s " data-wow-delay=" 0.5s ">
+        <app-skills [lightMode]="lightMode"></app-skills>
+    </div>
+    <div class=" wow fadeInDown " data-wow-duration=" 1s " data-wow-delay=" 0.5s ">
+        <app-contact [lightMode]="lightMode"></app-contact>
+    </div>
+    
+</div>
+    
 <app-footer></app-footer>

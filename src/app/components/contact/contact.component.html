@@ -1,13 +1,13 @@
 <div id="contact" class="section">
-    <hr class="line-section"/>
-    <h1 class="text-center section-title">Contact</h1>
-    <hr class="line-section mb-5"/>
+    <hr [ngClass]="{'line-section-light': lightMode, 'line-section': !lightMode}"/>
+    <h1 class="text-center" [ngClass]="{'section-title-light': lightMode, 'section-title': !lightMode}">Contact</h1>
+    <hr class="mb-5" [ngClass]="{'line-section-light': lightMode, 'line-section': !lightMode}"/>
     <div class="d-flex justify-content-center">
         <div class="contact-section">
             <ul *ngIf="contacts.length > 0" class="text-center">
                 <li *ngFor="let contact of contacts" class="mx-4 my-2 text-center">
                     <a [href]="contact.link" target="_blank">
-                        <i [class]="contact.classIcon"></i>
+                        <i [class]="contact.classIcon" [ngClass]="{'icon-dark': lightMode}"></i>
                     </a>
                 </li>
             </ul>

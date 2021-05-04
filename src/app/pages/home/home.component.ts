@@ -8,11 +8,17 @@ import { NgwWowService } from 'ngx-wow';
 })
 export class HomeComponent implements OnInit {
 
+  lightMode: boolean = false;
+
   constructor(ngwWowService: NgwWowService) {
     ngwWowService.init();
    }
 
   ngOnInit(): void {
+  }
+
+  processEvent(lightMode) {
+    this.lightMode = lightMode;
   }
 
 

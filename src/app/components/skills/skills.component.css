@@ -1,5 +1,6 @@
 .skills-title {
     color: #64FFDA;
+    transition: .5s ease all;
 }
 
 .skill-item {
@@ -18,4 +19,9 @@
     .skills-title {
         margin-bottom: 0px !important;
     }
+}
+
+.skills-title-light {
+    color: #0A192F !important;
+    transition: .5s ease all;
 }

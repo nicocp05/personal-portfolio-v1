@@ -22,6 +22,7 @@
     color: #0A192F;
     transform: rotateY(180deg);
     cursor: pointer;
+    border-radius: calc(.25rem - 1px);
 }
 
 .card:hover {
@@ -37,3 +38,9 @@
         transform: none !important;
     }
 }
+
+.flip-card-back-light {
+    background-color: #0A192F !important;
+    color: #CCD6F6 !important;
+}
+

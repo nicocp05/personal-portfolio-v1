@@ -1,5 +1,6 @@
 .footer-section {
     height: 80px;
-    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
     color: #CCD6F6;
 }

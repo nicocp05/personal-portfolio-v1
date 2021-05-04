@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Skill } from 'src/app/interfaces/data-structure';
 import { data } from 'src/app/model/data';
 
@@ -8,6 +8,8 @@ import { data } from 'src/app/model/data';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent implements OnInit {  
+
+  @Input() lightMode: boolean = false;
 
   skills: Skill[] = data.skills;
 

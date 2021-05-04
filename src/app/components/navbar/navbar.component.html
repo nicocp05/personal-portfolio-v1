@@ -1,16 +1,22 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg fixed-top" [ngClass]="{'navbar-light bg-light': lightMode, 'navbar-dark bg-dark': '!lightMode'}">
   <div class="container">
     <a class="navbar-brand" href="#">
-      <img src="assets/logo.svg" alt="" width="50" height="50" />
+      <img src="assets/logo.svg" alt="" width="50" height="50"/>
     </a>
-    <button (click)=buttonClick() class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+    <button (click)=navbarShown() class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" [ngClass]="{ 'show': isShown }" id="navbarNav">
       <ul *ngIf="items.length > 0" class="navbar-nav ms-auto">
         <li *ngFor="let item of items" class="nav-item">
-          <a class="nav-link me-2" (click)="buttonClick()" [href]="item.link">{{ item.name }}</a>
+          <a class="nav-link me-2" (click)="navbarShown()" [href]="item.link" [ngClass]="{'nav-link-light': lightMode, 'nav-link-dark': !lightMode}">{{ item.name }}</a>
+        </li>
+        <li class="d-flex align-items-center">
+          <button (click)="changeMode()" class="switch" [ngClass]="{'activated': lightMode}">
+            <span><i class="fas fa-moon"></i></span>
+            <span><i class="fas fa-sun"></i></span>
+          </button>
         </li>
       </ul>
     </div>

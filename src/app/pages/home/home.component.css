@@ -5,3 +5,8 @@ ng-scrollbar {
     --scrollbar-border-radius: 4px;
     border: 1px solid gray;
   }
+
+.home-page {
+  background-color: #0A192F !important;
+  transition: .5s ease all;
+}

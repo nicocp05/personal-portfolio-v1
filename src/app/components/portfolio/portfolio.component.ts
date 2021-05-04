@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Portfolio } from 'src/app/interfaces/data-structure';
 import { data } from '../../model/data';
 import { MatDialog } from '@angular/material/dialog';
@@ -10,6 +10,8 @@ import { PortfolioModalComponent } from '../modals/portfolio-modal/portfolio-mod
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent implements OnInit {
+
+  @Input() lightMode: boolean = false;
 
   works: Portfolio[] = data.portfolio;
 
