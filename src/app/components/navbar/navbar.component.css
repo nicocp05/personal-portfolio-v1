@@ -73,3 +73,9 @@
     color: #0C1F3B !important;
     border-bottom: 1px solid #0C1F3B;
 }
+
+@media (max-width: 992px) {
+    .switch{
+        display: none !important;
+    }
+}

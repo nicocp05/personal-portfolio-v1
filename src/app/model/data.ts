@@ -28,20 +28,20 @@ export const data: DataStructure =
             {
                 name: "SUMI",
                 img: "assets/sumi-image.jpg",
-                usedList: ["Angular", "Node.js", "JWT", "SweetAlert2"],
-                description: "Sumi description"
+                usedList: ["Angular", "Node.js", "JWT", "Typescript", "SweetAlert2"],
+                description: "SUMI is a web application to manage condominiums, It's developed using Angular, SweetAlert2, Bootstrap and Syncfusion. The API REST it's developed using Node.js, Express, Typescript and JWT."
             },
             {
                 name: "MoviesApp",
-                img: "assets/movies-image.png",
-                usedList: ["Angular", "SweetAlert2", "The Movie DB API"],
-                description: "MoviesApp description"
+                img: "assets/movies-image.jpg",
+                usedList: ["Angular", "The Movie DB API", "Bootstrap", "Animate.css"],
+                description: "MoviesApp is an application to watch the most recent movies and with an input to search for other movies. It's developed using Angular, Bootstrap, Animate.css and The MovieDB API."
             },
             {
                 name: "YoutubeApp",
                 img: "assets/youtube-image.png",
-                usedList: ["Angular", "Youtube API"],
-                description: "YoutubeApp description"
+                usedList: ["Angular", "Youtube API", "SweetAlert2", "Bootstrap", "Animate.css"],
+                description: "YoutubeApp is an application to watch the latest videos from Google's Youtube channel. It's developed using Angular, SweetAlert2, Bootstrap, Animate.css and The Youtube API."
             }
         ],
         experience: [
