@@ -14,7 +14,7 @@ export class PortfolioModalComponent implements OnInit {
   constructor( @Inject(MAT_DIALOG_DATA) public data: Portfolio ) { }
 
   ngOnInit(): void {
-    this.work = this.data;
+    // this.work = this.data;
   }
 
 }

@@ -29,19 +29,22 @@ export const data: DataStructure =
                 name: "SUMI",
                 img: "assets/sumi-image.jpg",
                 usedList: ["Angular", "Node.js", "JWT", "Typescript", "SweetAlert2"],
-                description: "SUMI is a web application to manage condominiums, It's developed using Angular, SweetAlert2, Bootstrap and Syncfusion. The API REST it's developed using Node.js, Express, Typescript and JWT."
+                description: "SUMI is a web application to manage condominiums, It's developed using Angular, SweetAlert2, Bootstrap and Syncfusion. The API REST it's developed using Node.js, Express, Typescript and JWT.",
+                link: "https://www.sumi-web.com/"
             },
             {
                 name: "MoviesApp",
                 img: "assets/movies-image.jpg",
                 usedList: ["Angular", "The Movie DB API", "Bootstrap", "Animate.css"],
-                description: "MoviesApp is an application to watch the most recent movies and with an input to search for other movies. It's developed using Angular, Bootstrap, Animate.css and The MovieDB API."
+                description: "MoviesApp is an application to watch the most recent movies and with an input to search for other movies. It's developed using Angular, Bootstrap, Animate.css and The MovieDB API.",
+                link: "https://moviesdb-app.herokuapp.com/"
             },
             {
                 name: "YoutubeApp",
                 img: "assets/youtube-image.png",
                 usedList: ["Angular", "Youtube API", "SweetAlert2", "Bootstrap", "Animate.css"],
-                description: "YoutubeApp is an application to watch the latest videos from Google's Youtube channel. It's developed using Angular, SweetAlert2, Bootstrap, Animate.css and The Youtube API."
+                description: "YoutubeApp is an application to watch the latest videos from Google's Youtube channel. It's developed using Angular, SweetAlert2, Bootstrap, Animate.css and The Youtube API.",
+                link: "https://youtube-channel-google.herokuapp.com/"
             }
         ],
         experience: [

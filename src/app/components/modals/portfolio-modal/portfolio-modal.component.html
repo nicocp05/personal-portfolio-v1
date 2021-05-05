@@ -1,5 +1,5 @@
 <div class="d-flex justify-content-end"><i mat-dialog-close class="close-icon far fa-times-circle fa-3x"></i></div>
-<h1 class="d-flex justify-content-center" mat-dialog-title>{{ data.name }}</h1>
+<h1 class="d-flex justify-content-center" mat-dialog-title style="font-size: 30px;">{{ data.name }}</h1>
 <hr class="line-section">
 <mat-dialog-content>
 
@@ -7,7 +7,9 @@
 
   <p class="mt-4">{{ data.description }}</p>
 
-  <div *ngFor="let oneData of data.usedList" class="d-inline-block mt-2">
+  <a [href]="data.link" class="btn btn-outline-primary btn-link" target="_blank">Go to page <i class="fas fa-link"></i></a><br>
+
+  <div *ngFor="let oneData of data.usedList" class="d-inline-block mt-4">
     <span class="badge badge-pill badge-primary me-4 mb-2" style="font-size: 14px">{{ oneData }}</span>
   </div>
 

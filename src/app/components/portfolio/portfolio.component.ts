@@ -22,13 +22,15 @@ export class PortfolioComponent implements OnInit {
   
   openDialog( work: Portfolio ) {
     this.dialog.open(PortfolioModalComponent, {
-      width: '900px',
+      width: '700px',
       data: {
         name: work.name,
         img: work.img,
         usedList: work.usedList,
-        description: work.description
-      }
+        description: work.description,
+        link: work.link
+      },
+      autoFocus: false
     });
   }
 
