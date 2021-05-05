@@ -12,6 +12,7 @@
 }
 
 .close-icon {
+    font-size: 2.2em;
     transition: transform .3s linear;
 }
 
