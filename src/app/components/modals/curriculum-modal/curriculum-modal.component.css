@@ -1,0 +1,14 @@
+.close-icon {
+    font-size: 2.2em;
+    transition: transform .3s linear;
+}
+
+.close-icon:hover {
+    transform: rotate(360deg);
+}
+
+.line-section {
+    background: linear-gradient(to right, transparent, #0A192F, transparent);
+    margin-left: 2%;
+    margin-right: 2%;
+}

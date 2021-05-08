@@ -7,7 +7,6 @@ import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { SkillsComponent } from './skills/skills.component';
-import { SocialNetworksComponent } from './social-networks/social-networks.component';
 import { FooterComponent } from './footer/footer.component';
 import { ModalsModule } from './modals/modals.module';
 
@@ -20,7 +19,6 @@ import { ModalsModule } from './modals/modals.module';
     NavbarComponent,
     PortfolioComponent,
     SkillsComponent,
-    SocialNetworksComponent,
     FooterComponent,
   ],
   imports: [
@@ -34,7 +32,6 @@ import { ModalsModule } from './modals/modals.module';
     NavbarComponent,
     PortfolioComponent,
     SkillsComponent,
-    SocialNetworksComponent,
     FooterComponent,
   ]
 })

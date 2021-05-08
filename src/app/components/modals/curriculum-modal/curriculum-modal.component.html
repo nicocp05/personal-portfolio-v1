@@ -1,0 +1,30 @@
+<div class="d-flex justify-content-end"><i mat-dialog-close class="close-icon far fa-times-circle"></i></div>
+<h1 class="d-flex justify-content-center" mat-dialog-title style="font-size: 30px;">{{ personal.name }}</h1>
+<hr class="line-section">
+<div class="d-flex align-items-center">    
+    <h5 class="mb-0">{{ personal.profile }}</h5>
+    <p class="ms-auto mb-0" style="font-size: 15px;">{{ personal.location }}</p>
+</div>
+<hr class="line-section">
+<mat-dialog-content>
+    <div *ngIf="skills.length > 0">
+        <h5>Skills</h5>
+        <ul class="fa-ul">
+            <li *ngFor="let skill of skills"><span class="fa-li"><i class="fas fa-angle-right"></i></span>{{ skill }}</li>
+        </ul>
+    </div>
+    <div *ngIf="experiences.length > 0">
+        <h5>Experience</h5>
+        <div *ngFor="let experience of experiences">
+            <h6>{{ experience.profile }} | {{ experience.company }} | {{ experience.location }} | {{ experience.from }} - {{ experience.to }}</h6>
+            <p>{{ experience.description }}</p>
+        </div>
+    </div>
+    <div *ngIf="educations.length > 0">
+       <h5>Education</h5>
+       <div *ngFor="let education of educations">
+        <h6>{{ education.career }} | {{ education.university }} | {{ education.location }} | {{ education.from }} - {{ education.to }}</h6>
+       </div>
+    </div>    
+</mat-dialog-content>
+

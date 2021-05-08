@@ -11,7 +11,8 @@ export interface Education {
     university: string;
     career:     string;
     location:   string;
-    begin:      string;
+    from:      string;
+    to:        string;
 }
 
 export interface Experience {
@@ -21,9 +22,11 @@ export interface Experience {
     from:     string;
     to:       string;
     used:     string[];
+    description: string;
 }
 
 export interface Personal {
-    name:    string;
-    profile: string;
+    name:     string;
+    profile:  string;
+    location: string;
 }
