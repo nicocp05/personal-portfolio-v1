@@ -5,7 +5,7 @@
     <div *ngIf="skills.length > 0" class="row">
         <div *ngFor="let skill of skills" class="col-sm-4 skill-item">
             <div class="text-center">
-                <h4 class="skills-title animate__animated animate__fadeInUp" [ngClass]="{'skills-title-light': lightMode}">{{skill.title}}</h4><br />
+                <h4 class="section-title animate__animated animate__fadeInUp" [ngClass]="{'skills-title-light': lightMode}">{{skill.title}}</h4><br/>
                 <i [class]="skill.classIcon" [style]="skill.style"></i>
             </div>
         </div>

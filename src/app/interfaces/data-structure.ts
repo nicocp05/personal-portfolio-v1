@@ -4,7 +4,8 @@ export interface DataStructure {
     skills: Skill[];
     portfolio: Portfolio[],
     experience: Experience[],
-    contact: Contact[]
+    contact: Contact[],
+    about: string
 }
 
 export interface NavbarItems {

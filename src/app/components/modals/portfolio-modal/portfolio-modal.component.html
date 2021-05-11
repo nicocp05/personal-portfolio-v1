@@ -7,9 +7,9 @@
 
   <p class="mt-4">{{ data.description }}</p>
 
-  <a [href]="data.link" class="btn btn-outline-primary btn-link" target="_blank">Go to page <i class="fas fa-link"></i></a><br>
+  <a [href]="data.link" class="btn btn-outline-primary btn-link" target="_blank">Go to page<i class="fas fa-link"></i></a><br>
 
   <div *ngFor="let oneData of data.usedList" class="d-inline-block mt-4">
-    <span class="badge badge-pill badge-primary me-4 mb-2" style="font-size: 14px">{{ oneData }}</span>
+    <span class="badge-usedList p-2 me-4 mb-2">{{ oneData }}</span>
   </div>
 </mat-dialog-content>

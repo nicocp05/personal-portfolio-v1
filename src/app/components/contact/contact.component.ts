@@ -13,6 +13,8 @@ export class ContactComponent implements OnInit {
 
   contacts: Contact[] = data.contact;
 
+  contactDescription: string = "You can contact with me by the following means!"
+
   constructor() { }
 
   ngOnInit(): void {

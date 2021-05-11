@@ -2,6 +2,7 @@ import { DataStructure } from "../interfaces/data-structure";
 
 export const data: DataStructure = 
     {
+        about: "Hi! I am an Argentine-Spanish web developer located in Argentina - conocer mas",
         navbarItems: [
             {
                 name: "Work",

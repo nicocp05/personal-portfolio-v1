@@ -27,8 +27,8 @@ export class ExperienceComponent implements OnInit {
   openDialog() {
     const cv = this.cv;
     this.dialog.open(CurriculumModalComponent, {
-      width: '700px',
-      height: '530px',
+      width: '900px',
+      height: '600px',
       data: {
         personal: cv.personal,
         skills: cv.skills,

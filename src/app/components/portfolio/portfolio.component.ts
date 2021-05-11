@@ -22,8 +22,8 @@ export class PortfolioComponent implements OnInit {
   
   openDialog( work: Portfolio ) {
     this.dialog.open(PortfolioModalComponent, {
-      width: '700px',
-      height: '530px',
+      width: '900px',
+      height: '600px',
       data: {
         name: work.name,
         img: work.img,

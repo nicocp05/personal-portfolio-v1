@@ -4,6 +4,9 @@
     <hr class="mb-5" [ngClass]="{'line-section-light': lightMode, 'line-section': !lightMode}"/>
     <div class="d-flex justify-content-center">
         <div class="contact-section">
+            <p [ngClass]="{'contact-description-light': lightMode,'contact-description': !lightMode}">
+                {{ contactDescription }} 
+            </p>
             <ul *ngIf="contacts.length > 0" class="text-center">
                 <li *ngFor="let contact of contacts" class="mx-4 my-2 text-center">
                     <a [href]="contact.link" target="_blank">

@@ -8,11 +8,11 @@ export const curriculum: CurriculumStructure =
             location: "Buenos Aires, Argentina"
         },
         skills: [
-            "Solido conocimiento de HTML, CSS y Javascript",
-            "Experiencia en el front end utilizando herramientas y librerias tales como Bootstrap, Animate.css, FontAwesome, entre otras",
-            "Experiencia en el back end utilizando Node.js, Express, REST, JWT entre otras",
-            "Desarrollo de aplicaciones web con Angular Framework",
-            "Conocimiento webpack como herramienta de empaquetador de modulos"
+            "Strong HTML, CSS and Javascript foundations.",
+            "Front-end experience using tools and libraries such as Bootstrap, Animate.css, FontAwesome and Material Design.",
+            "Back-end experience using Node.js, Express, API REST and JWT.",
+            "Single page application development with Angular Framework, and basic knowledge of React.",
+            "Knowledge of webpack as a module bundler."
         ],
         experience: [
             {
@@ -25,7 +25,7 @@ export const curriculum: CurriculumStructure =
                     "Angular",
                     "Node.js"
                 ],
-                description: "Trabaje con un equipo de desarrolladores en una aplicacion web para administrar consorcios utilizando en el Front End Angular Framework y en el Back End Node.js con Typescript, ademas de otras herramientas y librerias tales como Sweetalert2, Bootstrap, JWT, FontAwesome entre otras."
+                description: "I worked with a team of developers in a web application to manage condominium using Angular Framework in Front-end and Node.js with Typescript in Back-end, as well as other tools and libraries such as Sweetalert2, Bootstrap, JWT, FontAwesome, Angular Material."
             }
         ],
         education: [

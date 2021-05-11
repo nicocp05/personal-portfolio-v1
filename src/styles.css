@@ -21,7 +21,7 @@ body {
 }
 
 .line-section {
-    background: linear-gradient(to right, transparent, #64FFDA, transparent);
+    background: linear-gradient(to right, transparent, #91C56D, transparent);
     margin-left: 10%;
     margin-right: 10%;
     transition: .5s ease all;
