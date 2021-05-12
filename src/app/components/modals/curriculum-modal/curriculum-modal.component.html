@@ -1,9 +1,17 @@
 <div class="d-flex justify-content-end"><i mat-dialog-close class="close-icon far fa-times-circle"></i></div>
-<h1 class="d-flex justify-content-center" mat-dialog-title style="font-size: 30px;">{{ personal.name }}</h1>
+<h1 class="d-flex justify-content-center text-center" mat-dialog-title style="font-size: 30px;">{{ personal.name }}</h1>
 <hr class="line-section">
-<div class="d-flex align-items-center">    
-    <h5 class="mb-0 modal-title px-2">{{ personal.profile }}</h5>
-    <p class="ms-auto mb-0" style="font-size: 15px;">{{ personal.location }}</p>
+<div class="row">
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <h5 class="mb-0 modal-title px-2">{{ personal.profile }}</h5>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <p class="ms-auto modal-location mb-0" style="font-size: 15px;">{{ personal.location }}</p>
+        </div>
+    </div>
 </div>
 <hr class="line-section">
 <mat-dialog-content>

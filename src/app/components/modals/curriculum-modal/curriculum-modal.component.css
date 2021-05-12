@@ -24,4 +24,11 @@
     .close-icon {
         display: none;
     }
+    .modal-title {
+        text-align: center !important;
+    }
+    .modal-location{
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
 }
