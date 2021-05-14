@@ -9,6 +9,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { SkillsComponent } from './skills/skills.component';
 import { FooterComponent } from './footer/footer.component';
 import { ModalsModule } from './modals/modals.module';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { ModalsModule } from './modals/modals.module';
     PortfolioComponent,
     SkillsComponent,
     FooterComponent,
+    AboutComponent,
   ],
   imports: [
     CommonModule,

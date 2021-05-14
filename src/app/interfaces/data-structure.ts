@@ -24,6 +24,7 @@ export interface Portfolio {
     usedList: string[];
     description: string;
     link: string;
+    repositoryLink: string;
 }
 
 export interface Experience {

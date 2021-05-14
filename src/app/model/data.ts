@@ -28,30 +28,33 @@ export const data: DataStructure =
         portfolio: [
             {
                 name: "SUMI",
-                img: "assets/sumi-image.jpg",
+                img: "assets/sumi-image-compressor.jpg",
                 usedList: ["Angular", "Node.js", "JWT", "Typescript", "SweetAlert2"],
                 description: "SUMI is a web application to manage condominiums, It's developed using Angular, SweetAlert2, Bootstrap and Syncfusion. The API REST it's developed using Node.js, Express, Typescript and JWT.",
-                link: "https://www.sumi-web.com/"
+                link: "https://www.sumi-web.com/",
+                repositoryLink: ""
             },
             {
                 name: "MoviesApp",
-                img: "assets/movies-image.jpg",
+                img: "assets/movies-image-compressor.jpg",
                 usedList: ["Angular", "The Movie DB API", "Bootstrap", "Animate.css"],
                 description: "MoviesApp is an application to watch the most recent movies and with an input to search for other movies. It's developed using Angular, Bootstrap, Animate.css and The MovieDB API.",
-                link: "https://moviesdb-app.herokuapp.com/"
+                link: "https://moviesdb-app.herokuapp.com/",
+                repositoryLink: "https://github.com/nicocp05/movies-app"
             },
             {
                 name: "YoutubeApp",
-                img: "assets/youtube-image.png",
+                img: "assets/youtube-image-compressor.png",
                 usedList: ["Angular", "Youtube API", "SweetAlert2", "Bootstrap", "Animate.css"],
                 description: "YoutubeApp is an application to watch the latest videos from Google's Youtube channel. It's developed using Angular, SweetAlert2, Bootstrap, Animate.css and The Youtube API.",
-                link: "https://youtube-channel-google.herokuapp.com/"
+                link: "https://youtube-channel-google.herokuapp.com/",
+                repositoryLink: "https://github.com/nicocp05/youtube-api"
             }
         ],
         experience: [
             {
                 name: "UNE Consulting",
-                img: "assets/une-image.png"
+                img: "assets/une-image-compressor.png"
             }
         ],
         skills: [

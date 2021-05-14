@@ -29,7 +29,8 @@ export class PortfolioComponent implements OnInit {
         img: work.img,
         usedList: work.usedList,
         description: work.description,
-        link: work.link
+        link: work.link,
+        repositoryLink: work.repositoryLink
       },
       autoFocus: false
     });
