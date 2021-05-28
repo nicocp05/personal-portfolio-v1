@@ -14,17 +14,14 @@ export class AboutComponent implements OnInit {
 
   about: About = data.about;
   aboutDescription: String = this.about.description;
-  firstParagraph: String = this.aboutDescription.substr(0,68);
-  secondParagraph: String = this.aboutDescription.substr(69,98);
+  firstParagraph: String = this.aboutDescription.substr(0,185);
+  secondParagraph: String = this.aboutDescription.substr(187,465);
   thirdParagraph: String = this.aboutDescription.substr(169,148);
   aboutLink: String = this.about.linkCV;
 
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.firstParagraph);
-    console.log(this.secondParagraph);
-    console.log(this.thirdParagraph);
   }
 
 }

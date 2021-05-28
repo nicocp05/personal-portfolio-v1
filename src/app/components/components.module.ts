@@ -21,7 +21,7 @@ import { AboutComponent } from './about/about.component';
     PortfolioComponent,
     SkillsComponent,
     FooterComponent,
-    AboutComponent,
+    AboutComponent
   ],
   imports: [
     CommonModule,
