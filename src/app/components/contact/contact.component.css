@@ -27,15 +27,3 @@
     color: #0A192F !important;
     transition: .5s ease all;
 }
-
-.contact-description {
-    color: #CCD6F6;
-    font-size: 20px;
-    transition: .5s ease all;
-}
-
-.contact-description-light {
-    color: #0A192F !important;
-    font-size: 20px;
-    transition: .5s ease all;
-}

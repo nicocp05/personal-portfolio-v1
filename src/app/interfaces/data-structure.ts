@@ -5,9 +5,13 @@ export interface DataStructure {
     portfolio: Portfolio[],
     experience: Experience[],
     contact: Contact[],
-    about: string
+    about: About
 }
 
+export interface About {
+    description:    string;
+    linkCV:    string;
+}
 export interface NavbarItems {
     name:    string;
     link:    string;

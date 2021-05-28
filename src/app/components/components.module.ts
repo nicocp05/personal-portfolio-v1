@@ -35,6 +35,7 @@ import { AboutComponent } from './about/about.component';
     PortfolioComponent,
     SkillsComponent,
     FooterComponent,
+    AboutComponent
   ]
 })
 export class ComponentsModule { }

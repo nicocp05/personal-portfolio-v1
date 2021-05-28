@@ -6,7 +6,6 @@
 
 .nav-link-dark:hover {
     color: #91C56D !important;
-    border-bottom: 1px solid #91C56D;
 }
 
 .nav-link-dark {
@@ -70,8 +69,7 @@
 }
 
 .nav-link-light:hover {
-    color: #0C1F3B !important;
-    border-bottom: 1px solid #0C1F3B;
+    transform: scale(1.03);
 }
 
 @media (max-width: 992px) {

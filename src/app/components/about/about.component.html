@@ -1,1 +1,13 @@
-<p>about works!</p>
+<div id="about" class="section container">
+    <hr [ngClass]="{'line-section-light': lightMode, 'line-section': !lightMode}"/>
+    <h1 class="text-center" [ngClass]="{'section-title-light': lightMode, 'section-title': !lightMode}">About</h1>
+    <hr class="mb-5" [ngClass]="{'line-section-light': lightMode, 'line-section': !lightMode}"/>
+    <div *ngIf="aboutDescription !== ''" class="about-section">
+        <div class="text-justify">
+            <p [ngClass]="{'section-description-light': lightMode,'section-description': !lightMode}">
+                Hello! Thanks you for visit me, I am an Argentine-Spanish web developer located in Argentina, I started writing HTML, CSS and JavaScript in 2018...my first steps in programming's world!. <br> Later, I expanded my knowledge about JavaScript by learning Angular and Node.js to become a Full-Stack developer. Also, I had the possibility to get experience working using these tools and other useful libraries for development. <br> I always enjoy learning and developing new code!
+            </p>
+            <a [href]="aboutLink" [ngClass]="{'btn-link-light': lightMode, 'btn-link': !lightMode}" class="btn btn-outline-primary btn-link" target="_blank">Resume</a>
+        </div>
+    </div>
+</div>

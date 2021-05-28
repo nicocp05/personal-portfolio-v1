@@ -1,0 +1,29 @@
+.about-section {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.btn-link {
+    text-decoration: none;
+    border-color: #91C56D;
+    border-radius: 12px;
+    color: #91C56D;
+}
+
+.btn-link:hover {
+    background-color: #CCD6F6;
+    color: #0A192F;
+    border-color: #CCD6F6;
+}
+
+.btn-link-light {
+    text-decoration: none;
+    border-color: #0A192F;
+    border-radius: 12px;
+    color: #0A192F;
+}
+
+.btn-link-light:hover {
+    background-color: #0A192F;
+    color: white;
+}

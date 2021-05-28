@@ -1,10 +1,10 @@
-<div id="contact" class="section pb-5">
+<div id="contact" class="section" style="padding-bottom: 70px;">
     <hr [ngClass]="{'line-section-light': lightMode, 'line-section': !lightMode}"/>
     <h1 class="text-center" [ngClass]="{'section-title-light': lightMode, 'section-title': !lightMode}">Contact</h1>
     <hr class="mb-5" [ngClass]="{'line-section-light': lightMode, 'line-section': !lightMode}"/>
     <div class="d-flex justify-content-center">
         <div class="contact-section">
-            <p [ngClass]="{'contact-description-light': lightMode,'contact-description': !lightMode}">
+            <p [ngClass]="{'section-description-light': lightMode,'section-description': !lightMode}">
                 {{ contactDescription }} 
             </p>
             <ul *ngIf="contacts.length > 0" class="text-center">
