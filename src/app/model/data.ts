@@ -56,6 +56,14 @@ export const data: DataStructure =
                 description: "YoutubeApp is an application to watch the latest videos from Google's Youtube channel. It's developed using Angular, SweetAlert2, Bootstrap, Animate.css and The Youtube API.",
                 link: "https://youtube-channel-google.herokuapp.com/",
                 repositoryLink: "https://github.com/nicocp05/youtube-api"
+            },
+            {
+                name: "CalendarApp",
+                img: "assets/calendar-image.png",
+                usedList: ["React", "React-big-calendar", "SweetAlert2", "Bootstrap", "bcryptjs", "JWT", "Sequelize", "Redux"],
+                description: "CalendarApp is an application to organize tasks on a calendar. It's developed using React.js, React-big-calendar and Redux in the front-end and Node.js, JWT and Sequelize in the back-end",
+                link: "https://calendar-react-nico.herokuapp.com",
+                repositoryLink: "https://github.com/nicocp05/calendar-api"
             }
         ],
         experience: [
@@ -94,6 +102,21 @@ export const data: DataStructure =
                 title: "Git",
                 classIcon: "fab fa-git-alt fa-7x",
                 style: "color: #F74C20"
+            },
+            {
+                title: "React.js",
+                classIcon: "fab fa-react fa-7x",
+                style: "color: #00BCD4"
+            },
+            {
+                title: "Sass",
+                classIcon: "fab fa-sass fa-7x",
+                style: "color: #CD6799"
+            },
+            {
+                title: "Bootstrap",
+                classIcon: "fab fa-bootstrap fa-7x",
+                style: "color: #6610f2"
             }
         ],
         contact: [
