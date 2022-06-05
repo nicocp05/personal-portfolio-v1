@@ -3,7 +3,7 @@ import { DataStructure } from "../interfaces/data-structure";
 export const data: DataStructure = 
     {
         about: {
-            description: "Hello! Thanks you for visit me, I am an Argentine-Spanish web developer located in Zaragoza, I started writing HTML, CSS and JavaScript in 2018...my first steps in programming's world!. Later, I expanded my knowledge about JavaScript by learning Angular and Node.js to become a Full-Stack developer. Also, I had the possibility to get experience working using these tools and other useful libraries for development. I always enjoy learning and developing new code!",
+            description: "Hello! Thanks you for visit me, I am an Argentine-Spanish web developer located in Spain, I started writing HTML, CSS and JavaScript in 2018...my first steps in programming's world!. Later, I expanded my knowledge about JavaScript by learning Angular and Node.js to become a Full-Stack developer. Also, I had the possibility to get experience working using these tools and other useful libraries for development. I always enjoy learning and developing new code!",
             linkCV: "https://nicolascomisso.com/assets/curriculum-vitae.pdf"
         },
         navbarItems: [
