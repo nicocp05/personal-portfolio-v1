@@ -8,13 +8,24 @@ export const curriculum: CurriculumStructure =
             location: "Buenos Aires, Argentina"
         },
         skills: [
-            "Strong HTML, CSS and Javascript foundations.",
-            "Front-end experience using tools and libraries such as Bootstrap, Animate.css, FontAwesome and Material Design.",
-            "Back-end experience using Node.js, Express, API REST and JWT.",
-            "Single page application development with Angular Framework, and basic knowledge of React.",
-            "Knowledge of webpack as a module bundler."
+            "HTML, CSS and Javascript foundations.",
+            "Front-end experience using tools and libraries such as Bootstrap, Animate.css and FontAwesome.",
+            "Back-end experience using Node.js.",
+            "Single page application development with Angular Framework, and basic knowledge of React."
         ],
         experience: [
+            {
+                profile: "Full-stack JavaScript Developer",
+                company: "Allfunds",
+                location: "Valencia, España",
+                from: "July 2022",
+                to: "Currently",
+                used: [
+                    "Angular.js",
+                    "Node.js"
+                ],
+                description: "I work on a portfolio management web application using angular.js and node.js"
+            },
             {
                 profile: "Full-stack JavaScript Developer",
                 company: "UNE Consulting SRL",
