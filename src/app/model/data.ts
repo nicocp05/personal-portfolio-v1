@@ -4,7 +4,7 @@ export const data: DataStructure =
     {
         about: {
             description: "Hello! Thanks you for visit me, I am an Argentine-Spanish web developer located in Spain, I started writing HTML, CSS and JavaScript in 2018. Later, I expanded my knowledge about JavaScript by learning Angular and Node.js to become a Full-Stack developer. Also, I had the possibility to get experience working using these tools and other useful libraries for development.",
-            linkCV: "https://nicolascomisso.com/assets/curriculum-vitae.pdf"
+            linkCV: "https://nicolascomissopaz.com/assets/curriculum-vitae.pdf"
         },
         navbarItems: [
             {
